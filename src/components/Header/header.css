@@ -1,0 +1,11 @@
+.headerContainer {
+    background-color: gray;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+}
+
+.headerContainer--content {
+    padding: 0;
+    margin: 0 auto;
+}
