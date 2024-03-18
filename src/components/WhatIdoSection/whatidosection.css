@@ -4,4 +4,70 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.whatidoContainer {
+    margin: 2rem 5rem;
+    
+    /* background-color: gray;  */
+
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.photo {
+    width: 20rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 10rem;
+   
+}
+
+.textContainer--whatido {
+    background: var(--gradient-whatido-text  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+        
+    justify-content: right;
+    justify-items: right;
+}
+
+.textContainer--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    
+}
+
+.textContainer--text-whatido {
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.textContainer--text-stacks {
+    font-size: 2rem;
+
+    text-align: right;
+}
+
+.stackContainer {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    align-self: right;
+    margin-left: 400px;
 }

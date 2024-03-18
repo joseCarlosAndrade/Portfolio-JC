@@ -3,4 +3,34 @@
     width: 100%;
     padding: 0;
     height: 10rem;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.footerContainer--items {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContainer--items--social {
+    background-color: white;
+    width: 300px;
+    height: 50px;
+}
+
+.footerContainer--items--divider {
+    height: 80px;
+    width: 5px;
+    background-color: white;
+    margin: auto 20px;
+}
+
+.footerContainer--items--name {
+    color: rgb(199, 199, 199);
+    
 }

@@ -23,6 +23,8 @@ code {
 
   --gradient-introduction-text: linear-gradient(90deg, rgba(199,240,245,1) 0%, rgba(177,243,224,1) 100%);
   --gradient-jose-text: linear-gradient(90deg, rgba(88,160,191,1) 0%, rgba(85,239,193,1) 100%);
+
+  --gradient-whatido-text: linear-gradient(270deg, rgba(31,66,96,1) 0%, rgb(62, 109, 119) 100%);
 }
 
 

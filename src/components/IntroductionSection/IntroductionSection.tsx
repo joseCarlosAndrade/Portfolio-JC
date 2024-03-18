@@ -14,7 +14,7 @@ function IntroductionSection() {
                 </div>
 
                 <div className='textSecondLine'>
-                  Werlcome to my portfolio.
+                  Welcome to my portfolio.
                 </div>
                 
             </div>
