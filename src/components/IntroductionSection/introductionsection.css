@@ -1,0 +1,43 @@
+.introductionSection {
+    /* background: rgb(5,12,38); */
+    background: var(--gradient-introduction);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+    /* padding: 0; */
+}
+
+
+.textContainer {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 5rem;
+    background: var(--gradient-introduction-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 2rem 5rem;
+}
+
+.introductionText {
+    margin-bottom: 0;
+}
+
+.textJose {
+    background: var(--gradient-jose-text);
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.textFirstLine {
+    display: flex;
+    margin: 0;
+}
+
+.textSecondLine {
+    width: 50rem;
+}

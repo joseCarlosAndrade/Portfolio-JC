@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-introduction: linear-gradient(132deg, rgba(5,12,38,1) 0%, rgba(60,98,126,1) 100%);
+  --gradient-whatido: linear-gradient(41deg, rgba(42,90,90,1) 0%, rgba(70,246,246,1) 100%);
+  --gradient-footer: linear-gradient(180deg, rgba(38,41,45,1) 0%, rgba(22,25,27,1) 100%);
+
+  --gradient-introduction-text: linear-gradient(90deg, rgba(199,240,245,1) 0%, rgba(177,243,224,1) 100%);
+  --gradient-jose-text: linear-gradient(90deg, rgba(88,160,191,1) 0%, rgba(85,239,193,1) 100%);
+}
+
+
+

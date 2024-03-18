@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components';
+import { Footer, Header , IntroductionSection, WhatIdoSection} from './components';
+
 
 function App() {
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
+      <div className='appContainer'> 
+        <IntroductionSection></IntroductionSection>
+        <WhatIdoSection></WhatIdoSection>
+        <Footer></Footer>
+      </div>
+      
     </>
   );
 }
