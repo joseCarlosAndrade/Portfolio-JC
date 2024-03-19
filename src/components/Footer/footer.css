@@ -1,11 +1,14 @@
 .footerContainer {
     background: var(--gradient-footer);
     width: 100%;
+    max-width: 100%;
     padding: 0;
     height: 10rem;
 
     display: flex;
     align-items: center;
+
+    overflow: hidden;
     
 }
 
@@ -32,5 +35,20 @@
 
 .footerContainer--items--name {
     color: rgb(199, 199, 199);
+    
+}
+
+@media only screen and (max-width: 410px) {
+    .footerContainer--items {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerContainer--items--divider {
+        width: 0;
+    }
     
 }

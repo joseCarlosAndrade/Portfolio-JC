@@ -17,8 +17,11 @@
     height: auto;
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+
+    position: relative;
 }
 
 .photo {
@@ -26,6 +29,8 @@
     height: 20rem;
     background-color: white;
     border-radius: 10rem;
+
+    position: absolute;
    
 }
 
@@ -35,20 +40,30 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-
+/* 
     display: flex;
     flex-direction: column;
         
     justify-content: right;
-    justify-items: right;
+    justify-items: right; */
+
+    position: absolute;
+    /* right: 0; */
+    left: 50%;
+
+    /* top: 100px; */
+    overflow-x: visible;
+    
 }
 
 .textContainer--text {
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    align-items: end;
+    /* justify-content: right;
     align-items: right;
-    
+     */
+    /* position: relative; */
 }
 
 .textContainer--text-whatido {
@@ -62,12 +77,63 @@
     font-size: 2rem;
 
     text-align: right;
+    
 }
 
-.stackContainer {
-    background-color: white;
-    width: 400px;
-    height: 60px;
-    align-self: right;
-    margin-left: 400px;
+
+
+@media only screen and (max-width:410px) {
+    .textContainer--text-stacks {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .photo {
+        width: 10rem;
+        height: 10rem;
+        
+        border-radius: 5;
+        margin: 3rem auto;
+        
+
+    }
+
+    .whatidoContainer {
+        margin: 1rem 2rem;
+        
+        /* background-color: gray;  */
+
+    
+        
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .textContainer--text {
+        align-items: center;
+    }
+
+    .textContainer--whatido {
+        left: auto;
+        right: auto;
+        top: 40%;
+        width: 80%;
+        
+    }
+
+    .textContainer--text-whatido {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .textContainer--text-stacks {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    
 }

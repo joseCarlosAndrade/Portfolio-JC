@@ -5,7 +5,7 @@ function IntroductionSection() {
   return (
     <>
         <section className='introductionSection'>
-            <div className='textContainer'>
+            <div className='textContainer animate slideInLeft '>
                 <div className='textFirstLine'>
                   <p className='introductionText'>
                       Hi! I'm
