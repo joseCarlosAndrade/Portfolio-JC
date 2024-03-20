@@ -1,11 +1,12 @@
 import React from 'react'
 import './introductionsection.css';
 
+
 function IntroductionSection() {
   return (
     <>
         <section className='introductionSection'>
-            <div className='textContainer animate slideInLeft '>
+            <div className='textContainer slideInLeft '>
                 <div className='textFirstLine'>
                   <p className='introductionText'>
                       Hi! I'm

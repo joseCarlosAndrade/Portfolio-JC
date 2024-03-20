@@ -27,11 +27,16 @@
 .photo {
     width: 20rem;
     height: 20rem;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10rem;
 
     position: absolute;
    
+}
+
+.photo img {
+    width: 20rem;
+    height: 20rem;
 }
 
 .textContainer--whatido {
@@ -99,6 +104,15 @@
         margin: 3rem auto;
         
 
+    }
+
+    .photo img {
+        width: 10rem;
+        height: 10rem;
+        
+        border-radius: 5;
+        margin: 3rem auto;
+        
     }
 
     .whatidoContainer {
