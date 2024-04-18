@@ -4,7 +4,7 @@ import {useInView} from 'react-intersection-observer';
 
 import StackContainer  from './StackContainer/StackContainer'
 
-import myself from './../../assets/myself.png'
+import { myself } from 'src/assets';
 
 function WhatIdoSection() {
 
@@ -32,7 +32,7 @@ function WhatIdoSection() {
         <section className='whatidosection'>
           <div className={textClass}>
             <div className={photoClass} ref={ref} >
-              <img src={myself} alt="Myself (Jose Carlos)" /> 
+              <img src={myself} alt="Myself (Jose Carlos)" className='transitionEase scaleOnHover105' /> 
             </div>
             <div className='textContainer--whatido '>
               <div className='textContainer--text '>

@@ -4,3 +4,19 @@
 }
 
 
+.transitionEase {
+  /* animation: scale;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out; */
+  transition: transform 0.1s ease-in-out;
+}
+
+.scaleOnHover105:hover {
+  transform: scale(1.05);
+
+  
+}
+
+.scaleOnHover120:hover {
+  transform: scale(1.2);
+}
