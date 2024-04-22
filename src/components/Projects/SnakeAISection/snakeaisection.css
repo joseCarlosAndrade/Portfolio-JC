@@ -68,3 +68,44 @@
     color: var(--snakeai-green);
     cursor: pointer;
 }
+
+
+/* responsivness */
+@media screen and (max-width: 1469px){
+    .snakeaisection {
+        height: auto;
+    
+    
+    }
+
+    .snakeaisection--container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-direction: ; */
+        margin: 3rem;
+
+    }
+
+    .snakeaisection--container-mediainfo-image {
+        height: 50vh;
+        width: 80vh;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+
+    .snakeaisection--container-texts--infotext {
+        margin: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .snakeaisection--container-texts {
+        width: 60vw;
+        
+    }
+
+    
+}   
