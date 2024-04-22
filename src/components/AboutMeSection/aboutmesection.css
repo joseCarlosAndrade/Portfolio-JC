@@ -1,0 +1,103 @@
+
+
+.aboutmesection {
+    height: 100vh;
+
+    background: var(--aboutme-background);
+    background: var(--aboutme-gradient);
+    display: flex;
+    font-family: var(--font-family);
+}
+
+.aboutme--container {
+    
+    height: 86vh;
+    width: 83vw;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 0;
+}
+
+.aboutme--container-upper--aboutme-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 0; */
+}
+
+.aboutme--container-upper--aboutme-texts-main {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--aboutme-darkblue);
+}
+
+.aboutme--container-upper--aboutme-texts-divider {
+    width: 200px;
+    margin: 1rem 0 2rem 0;
+}
+
+.aboutme--container-upper--aboutme-texts-text {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* PROFILE */
+
+.aboutme--container-upper--profile-texts-main {
+    font-weight: bold;
+    color: var(--aboutme-lightblue);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.aboutme--container-upper--profile-texts-text {
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+
+.aboutme--container-upper--profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme--container-upper--profile-image {
+    width: 30vw;
+}
+
+.aboutme--container-bestprojects {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme--container-bestprojects {
+    color: var(--aboutme-darkblue);
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutme--container-bestprojects-arrow {
+    height: 1.5rem;
+}
+
+/* RESPONSIVNESS */
+
+@media screen and ( max-width: 412px) {
+    .aboutme--container-upper--profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

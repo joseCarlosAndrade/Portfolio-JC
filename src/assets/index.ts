@@ -7,6 +7,9 @@ export {default as goIcon} from './icons/golang.svg';
 export {default as linuxIcon} from './icons/linux.svg';
 export {default as pythonIcon} from './icons/python.svg';
 export {default as tsIcon} from './icons/typescript.svg';
+export {default as lineThickSeparator} from './line-thick.svg';
+export {default as rightArrow} from './right-arrow.svg';
+export {default as downArrow} from './down-arrow.svg';
 
 export {default as myself} from './myself.png';
 export {default as meComputerSection} from './me-section.png';

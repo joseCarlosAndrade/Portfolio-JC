@@ -35,6 +35,13 @@ code {
   --gradient-jose-text: linear-gradient(90deg, rgba(88,160,191,1) 0%, rgba(85,239,193,1) 100%);
 
   --gradient-whatido-text: linear-gradient(270deg, rgba(31,66,96,1) 0%, rgb(62, 109, 119) 100%);
+
+  /* about me */
+  --aboutme-background: rgb(190,232,237);
+  --aboutme-gradient: linear-gradient(42deg, rgba(190,232,237,1) 0%, rgba(208,250,255,1) 100%);
+
+  --aboutme-darkblue: #1F4260;
+  --aboutme-lightblue: #3F6F97;
 }
 
 

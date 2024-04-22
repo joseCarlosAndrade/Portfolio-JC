@@ -1,0 +1,11 @@
+.stackComponent {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    font-weight: bold;
+}
+
+.stackComponent--rightarrow {
+    height: 1.3rem;
+    margin-right: 1rem;
+}
