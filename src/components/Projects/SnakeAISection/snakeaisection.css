@@ -70,8 +70,9 @@
 }
 
 
+
 /* responsivness */
-@media screen and (max-width: 1469px){
+@media screen and (max-width: 1000px){
     .snakeaisection {
         height: auto;
     
@@ -101,11 +102,28 @@
     
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
     .snakeaisection--container-texts {
         width: 60vw;
         
     }
+    .snakeaisection--container-mediainfo-image {
+        width: 50vw;
+        height: auto;
+    }
+    
 
+}   
+
+
+@media screen and (max-width: 1400px) {
+    .snakeaisection--container-texts {
+        width: 60vw;
+        
+    }
+    .snakeaisection--container-mediainfo-image {
+        width: 50vw;
+        height: auto;
+    }
     
 }   
