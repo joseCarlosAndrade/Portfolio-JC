@@ -44,10 +44,16 @@ code {
   --aboutme-lightblue: #3F6F97;
 
   /* snake ai section */
-  --snakeai-backgorund: #294152;
+  --snakeai-background: #294152;
   --snakeai-green: #4FBB7A;
 
   --snakeai-lightwhite: #D5E7E9;
+
+  /* 3dengine section */
+  --engine-background: #0E1011;
+  --engine-pink: #BB5177;
+  --engine-textcolor: #D5E7E9;
+
 }
 
 

@@ -15,3 +15,4 @@ export {default as myself} from './myself.png';
 export {default as meComputerSection} from './me-section.png';
 
 export {default as snakeAiDemo} from './snakeai.jpg';
+export {default as engineDemo} from './engine.jpg';

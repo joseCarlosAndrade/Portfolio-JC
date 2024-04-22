@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { 
-    AboutMeSection, Footer , IntroductionSection, WhatIdoSection, SnakeAISection
+    AboutMeSection, Footer , IntroductionSection, WhatIdoSection, SnakeAISection, EngineSection
   } from './components';
 
 
@@ -14,6 +14,7 @@ function App() {
         <WhatIdoSection></WhatIdoSection>
         <AboutMeSection></AboutMeSection>
         <SnakeAISection></SnakeAISection>
+        <EngineSection></EngineSection>
         <Footer></Footer>
       </div>
       

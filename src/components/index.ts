@@ -8,3 +8,4 @@ export { default as StackComponent} from './AboutMeSection/StackComponent/StackC
 
 // project sections
 export { default as SnakeAISection} from './Projects/SnakeAISection/SnakeAiSection';
+export { default as EngineSection} from './Projects/3DEngineSection/3DEngineSection';

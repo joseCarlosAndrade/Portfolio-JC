@@ -1,44 +1,45 @@
-.snakeaisection {
+.engineaisection {
     height: 100vh;
-   background: var(--snakeai-background);
+   background: var(--engine-background);
 
-
+    padding-top: 1rem;
 }
 
-.snakeaisection--container {
+.engineaisection--container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     margin: 3rem;
 
     font-family: var(--font-family);
-    color: var(--snakeai-lightwhite);
+    color: var(--engine-textcolor);
 }
 
-.snakeaisection--container-mediainfo {
+.engineaisection--container-mediainfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.snakeaisection--container-mediainfo-image {
-    height: 80vh;
+.engineaisection--container-mediainfo-image {
+    height: 60vh;
     /* width: 80vh; */
     background-color: white;
     margin-bottom: 10px;
 }
 
-.snakeaisection--container-texts {
+.engineaisection--container-texts {
     width: 40vw;
     display: flex ;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: start;
     padding: 3rem;
+    margin-right: 1rem;
 }
 
 /* header texts */
-.snakeaisection--container-texts--header {
+.engineaisection--container-texts--header {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
@@ -46,26 +47,26 @@
     margin-top: 1rem;
 }
 
-.snakeaisection--container-texts--header-cppicon {
+.engineaisection--container-texts--header-cppicon {
     margin-right: 4rem;
 }
 
 /* middle texts */
-.snakeaisection--container-texts--infotext {
+.engineaisection--container-texts--infotext {
     font-size: 1.2rem;
     text-align: justify;
 }
 
 /* check it out on github */
-.snakeaisection--container-texts--github {
+.engineaisection--container-texts--github {
     display: flex;
     flex-direction: row;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.snakeaisection--container-texts--github-green {
-    color: var(--snakeai-green);
+.engineaisection--container-texts--github-green {
+    color: var(--engine-pink);
     cursor: pointer;
 }
 
@@ -73,13 +74,13 @@
 
 /* responsivness */
 @media screen and (max-width: 1000px){
-    .snakeaisection {
+    .engineaisection {
         height: auto;
     
     
     }
 
-    .snakeaisection--container {
+    .engineaisection--container {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -89,25 +90,29 @@
 
     }
 
-    .snakeaisection--container-mediainfo-image {
+    .engineaisection--container-mediainfo-image {
         height: 50vh;
         width: 80vh;
         background-color: white;
         margin-bottom: 30px;
     }
 
-    .snakeaisection--container-texts--infotext {
+    .engineaisection--container-texts {
+        align-items: center;
+    }
+
+    .engineaisection--container-texts--infotext {
         margin: 2rem;
     }
     
 }
 
 @media screen and (max-width: 1300px) {
-    .snakeaisection--container-texts {
+    .engineaisection--container-texts {
         width: 60vw;
         
     }
-    .snakeaisection--container-mediainfo-image {
+    .engineaisection--container-mediainfo-image {
         width: 50vw;
         height: auto;
     }
@@ -117,12 +122,12 @@
 
 
 @media screen and (max-width: 1400px) {
-    .snakeaisection--container-texts {
+    .engineaisection--container-texts {
         width: 60vw;
         
     }
-    .snakeaisection--container-mediainfo-image {
-        width: 50vw;
+    .engineaisection--container-mediainfo-image {
+        width: 85vh;
         height: auto;
     }
     
