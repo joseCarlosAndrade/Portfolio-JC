@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-JC/static/css/main.22c7678a.css",
-    "main.js": "/Portfolio-JC/static/js/main.4c550075.js",
+    "main.css": "/Portfolio-JC/static/css/main.e6d54e8c.css",
+    "main.js": "/Portfolio-JC/static/js/main.d4833b64.js",
     "static/js/453.beaf0f80.chunk.js": "/Portfolio-JC/static/js/453.beaf0f80.chunk.js",
     "static/media/linux.svg": "/Portfolio-JC/static/media/linux.0ddbecea7788a7985b909198066b665d.svg",
     "static/media/snakeai.jpg": "/Portfolio-JC/static/media/snakeai.974d34ae8e9572c5b9c1.jpg",
@@ -17,12 +17,12 @@
     "static/media/down-arrow.svg": "/Portfolio-JC/static/media/down-arrow.7025fa642a7c2bbfdb940ea16fb883a9.svg",
     "static/media/right-arrow.svg": "/Portfolio-JC/static/media/right-arrow.21992765d22dc2c98d54a40393cf819d.svg",
     "static/media/line-thick.svg": "/Portfolio-JC/static/media/line-thick.003172bf97dcf292047eac5bf289623f.svg",
-    "main.22c7678a.css.map": "/Portfolio-JC/static/css/main.22c7678a.css.map",
-    "main.4c550075.js.map": "/Portfolio-JC/static/js/main.4c550075.js.map",
+    "main.e6d54e8c.css.map": "/Portfolio-JC/static/css/main.e6d54e8c.css.map",
+    "main.d4833b64.js.map": "/Portfolio-JC/static/js/main.d4833b64.js.map",
     "453.beaf0f80.chunk.js.map": "/Portfolio-JC/static/js/453.beaf0f80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c7678a.css",
-    "static/js/main.4c550075.js"
+    "static/css/main.e6d54e8c.css",
+    "static/js/main.d4833b64.js"
   ]
 }
