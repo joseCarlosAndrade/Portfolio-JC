@@ -58,9 +58,15 @@
 .aboutme--container-upper--profile-texts-text {
     text-align: justify;
     width: 90%;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    
 }
 
+.resumelink {
+    margin-bottom: 1rem;
+    color: var(--aboutme-lightblue);
+    cursor: pointer;
+}
 
 .aboutme--container-upper--profile {
     display: flex;
@@ -69,6 +75,8 @@
 
 .aboutme--container-upper--profile-image {
     width: 30vw;
+    filter: drop-shadow(2px 2px 5px var(--aboutme-darkblue));
+    /* background: red; */
 }
 
 .aboutme--container-bestprojects {

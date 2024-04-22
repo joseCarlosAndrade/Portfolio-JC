@@ -13,3 +13,5 @@ export {default as downArrow} from './down-arrow.svg';
 
 export {default as myself} from './myself.png';
 export {default as meComputerSection} from './me-section.png';
+
+export {default as snakeAiDemo} from './snakeai.jpg';

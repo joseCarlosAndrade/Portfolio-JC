@@ -10,7 +10,7 @@ interface StackProps {
 function StackComponent( {content } : StackProps) {
   return (
     <>
-    <div className='stackComponent'>
+    <div className='stackComponent transitionEase scaleOnHover105'>
         <img className='stackComponent--rightarrow' src={rightArrow.toString()} alt="" />
         {content}
     </div>

@@ -8,7 +8,7 @@ import {StackComponent} from 'src/components';
 function AboutMeSection() {
   return (
     <>
-        <div className='aboutmesection'>
+        <section className='aboutmesection'>
             <div className='aboutme--container'>
                 <div className='aboutme--container-upper'> 
                     <div className='aboutme--container-upper--aboutme-texts'>
@@ -30,8 +30,10 @@ function AboutMeSection() {
                             </div>
 
                             <div className='aboutme--container-upper--profile-texts-text'>
-                            Software developer with experience on  Python 3, C++ and Javascript. Check my resume here! I’ve worked on the development of both academics and enterprises projects, from which I gained a notable experience with stacks like:
+                            Software developer with experience on  Python 3, C++ and Javascript.  I’ve worked on the development of both academics and enterprises projects, from which I gained a notable experience with several stacks.
                             </div>
+
+                            <div className='resumelink'>Check my resume here!</div>
 
                             <div className='aboutme--container-upper--profile-texts-stacks'>
                                 <StackComponent content='Computer Networks'></StackComponent>
@@ -43,19 +45,19 @@ function AboutMeSection() {
                             </div>
 
                         </div>
-                        <img className='aboutme--container-upper--profile-image' 
+                        <img className='aboutme--container-upper--profile-image transitionEase scaleOnHover105' 
                             src={meComputerSection} alt="An art drawing of myself" />
                     </div>
                 </div>
 
-                <div className='aboutme--container-bestprojects'>
+                <div className='aboutme--container-bestprojects transitionEase scaleOnHover120'>
                     <img className='aboutme--container-bestprojects-arrow' src= {downArrow.toString()} alt=''/>
                     <div className='aboutme--container-bestprojects-text'>My best projects</div>
                     <img className='aboutme--container-bestprojects-arrow' src= {downArrow.toString()} alt=''/>
                 </div>
 
             </div>
-        </div>
+        </section>
     </>
   )
 }
