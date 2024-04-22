@@ -16,3 +16,4 @@ export {default as meComputerSection} from './me-section.png';
 
 export {default as snakeAiDemo} from './snakeai.jpg';
 export {default as engineDemo} from './engine.jpg';
+export {default as gorticDemo} from './gortic.jpg';

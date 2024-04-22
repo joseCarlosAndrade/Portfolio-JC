@@ -33,7 +33,7 @@ function AboutMeSection() {
                             Software developer with experience on  Python 3, C++ and Javascript.  I’ve worked on the development of both academics and enterprises projects, from which I gained a notable experience with several stacks.
                             </div>
 
-                            <div className='resumelink'>Check my resume here!</div>
+                            <a target='_blank' rel='noopener noreferrer' href='https://drive.google.com/file/d/1gGgjSiBb71As9qZMTyWdAPlxT0psIGp7/view?usp=sharing'  className='resumelink'>Check my resume here!</a>
 
                             <div className='aboutme--container-upper--profile-texts-stacks'>
                                 <StackComponent content='Computer Networks'></StackComponent>

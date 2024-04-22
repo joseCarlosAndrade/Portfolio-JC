@@ -25,7 +25,7 @@ function SnakeAiSection() {
                 </div>
                 <div className='snakeaisection--container-texts--github'>
                     <div className='snakeaisection--container-texts--github-check'>Check it out on my &nbsp;</div>
-                    <div className='snakeaisection--container-texts--github-green transitionEase scaleOnHover120'>Github</div>
+                    <a target='_blank' rel='noopener noreferrer' href='https://github.com/joseCarlosAndrade/SnakeGame-AI' className='snakeaisection--container-texts--github-green transitionEase scaleOnHover120'>Github</a>
                 </div>
             </div>
 

@@ -1,11 +1,11 @@
-.engineaisection {
+.enginesection {
     height: 100vh;
-   background: var(--engine-background);
+    background: var(--engine-background);
 
     padding-top: 1rem;
 }
 
-.engineaisection--container {
+.enginesection--container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -15,20 +15,20 @@
     color: var(--engine-textcolor);
 }
 
-.engineaisection--container-mediainfo {
+.enginesection--container-mediainfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.engineaisection--container-mediainfo-image {
+.enginesection--container-mediainfo-image {
     height: 60vh;
     /* width: 80vh; */
     background-color: white;
     margin-bottom: 10px;
 }
 
-.engineaisection--container-texts {
+.enginesection--container-texts {
     width: 40vw;
     display: flex ;
     flex-direction: column;
@@ -39,7 +39,7 @@
 }
 
 /* header texts */
-.engineaisection--container-texts--header {
+.enginesection--container-texts--header {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
@@ -47,25 +47,25 @@
     margin-top: 1rem;
 }
 
-.engineaisection--container-texts--header-cppicon {
+.enginesection--container-texts--header-cppicon {
     margin-right: 4rem;
 }
 
 /* middle texts */
-.engineaisection--container-texts--infotext {
+.enginesection--container-texts--infotext {
     font-size: 1.2rem;
     text-align: justify;
 }
 
 /* check it out on github */
-.engineaisection--container-texts--github {
+.enginesection--container-texts--github {
     display: flex;
     flex-direction: row;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.engineaisection--container-texts--github-green {
+.enginesection--container-texts--github-green {
     color: var(--engine-pink);
     cursor: pointer;
 }
@@ -78,11 +78,11 @@
 
 
 @media screen and (max-width: 1400px) {
-    .engineaisection--container-texts {
+    .enginesection--container-texts {
         width: 60vw;
         
     }
-    .engineaisection--container-mediainfo-image {
+    .enginesection--container-mediainfo-image {
         width: 85vh;
         height: auto;
     }
@@ -90,11 +90,11 @@
 }   
 
 @media screen and (max-width: 1300px) {
-    .engineaisection--container-texts {
+    .enginesection--container-texts {
         width: 60vw;
         
     }
-    .engineaisection--container-mediainfo-image {
+    .enginesection--container-mediainfo-image {
         width: 50vw;
         height: auto;
     }
@@ -103,13 +103,13 @@
 }  
 
 @media screen and (max-width: 1000px){
-    .engineaisection {
+    .enginesection {
         height: auto;
     
     
     }
 
-    .engineaisection--container {
+    .enginesection--container {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -119,18 +119,18 @@
 
     }
 
-    .engineaisection--container-mediainfo-image {
+    .enginesection--container-mediainfo-image {
         /* height: 50vh; */
         width: 80vw;
         background-color: white;
         margin-bottom: 30px;
     }
 
-    .engineaisection--container-texts {
+    .enginesection--container-texts {
         align-items: center;
     }
 
-    .engineaisection--container-texts--infotext {
+    .enginesection--container-texts--infotext {
         margin: 2rem;
     }
     
