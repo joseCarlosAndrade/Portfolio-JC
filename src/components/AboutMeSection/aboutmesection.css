@@ -101,11 +101,23 @@
 
 /* RESPONSIVNESS */
 
-@media screen and ( max-width: 412px) {
+/* @media screen and (max-width: 700px) {
+
+} */
+
+@media screen and ( max-width: 700px) {
+
+    .aboutmesection {
+        height: 110vh;
+    }
     .aboutme--container-upper--profile {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .aboutme--container-upper--profile-image {
+        width: 50vw;
+        margin: 1rem;
     }
 }

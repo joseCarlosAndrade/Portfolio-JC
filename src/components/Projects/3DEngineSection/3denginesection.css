@@ -73,6 +73,35 @@
 
 
 /* responsivness */
+
+ 
+
+
+@media screen and (max-width: 1400px) {
+    .engineaisection--container-texts {
+        width: 60vw;
+        
+    }
+    .engineaisection--container-mediainfo-image {
+        width: 85vh;
+        height: auto;
+    }
+    
+}   
+
+@media screen and (max-width: 1300px) {
+    .engineaisection--container-texts {
+        width: 60vw;
+        
+    }
+    .engineaisection--container-mediainfo-image {
+        width: 50vw;
+        height: auto;
+    }
+    
+
+}  
+
 @media screen and (max-width: 1000px){
     .engineaisection {
         height: auto;
@@ -91,8 +120,8 @@
     }
 
     .engineaisection--container-mediainfo-image {
-        height: 50vh;
-        width: 80vh;
+        /* height: 50vh; */
+        width: 80vw;
         background-color: white;
         margin-bottom: 30px;
     }
@@ -106,29 +135,3 @@
     }
     
 }
-
-@media screen and (max-width: 1300px) {
-    .engineaisection--container-texts {
-        width: 60vw;
-        
-    }
-    .engineaisection--container-mediainfo-image {
-        width: 50vw;
-        height: auto;
-    }
-    
-
-}   
-
-
-@media screen and (max-width: 1400px) {
-    .engineaisection--container-texts {
-        width: 60vw;
-        
-    }
-    .engineaisection--container-mediainfo-image {
-        width: 85vh;
-        height: auto;
-    }
-    
-}   
