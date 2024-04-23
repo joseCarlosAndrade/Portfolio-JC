@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-JC/static/css/main.5b4405fd.css",
+    "main.css": "/Portfolio-JC/static/css/main.31bf6af0.css",
     "main.js": "/Portfolio-JC/static/js/main.2ba20f90.js",
     "static/js/453.beaf0f80.chunk.js": "/Portfolio-JC/static/js/453.beaf0f80.chunk.js",
     "static/media/linux.svg": "/Portfolio-JC/static/media/linux.0ddbecea7788a7985b909198066b665d.svg",
@@ -17,12 +17,12 @@
     "static/media/down-arrow.svg": "/Portfolio-JC/static/media/down-arrow.7025fa642a7c2bbfdb940ea16fb883a9.svg",
     "static/media/right-arrow.svg": "/Portfolio-JC/static/media/right-arrow.21992765d22dc2c98d54a40393cf819d.svg",
     "static/media/line-thick.svg": "/Portfolio-JC/static/media/line-thick.003172bf97dcf292047eac5bf289623f.svg",
-    "main.5b4405fd.css.map": "/Portfolio-JC/static/css/main.5b4405fd.css.map",
+    "main.31bf6af0.css.map": "/Portfolio-JC/static/css/main.31bf6af0.css.map",
     "main.2ba20f90.js.map": "/Portfolio-JC/static/js/main.2ba20f90.js.map",
     "453.beaf0f80.chunk.js.map": "/Portfolio-JC/static/js/453.beaf0f80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b4405fd.css",
+    "static/css/main.31bf6af0.css",
     "static/js/main.2ba20f90.js"
   ]
 }
