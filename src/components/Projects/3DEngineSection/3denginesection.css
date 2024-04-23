@@ -130,8 +130,58 @@
         align-items: center;
     }
 
+    .enginesection--container-texts--header {
+        text-align: right;
+    }
+    
+
     .enginesection--container-texts--infotext {
         margin: 2rem;
     }
     
+}
+/* sdssssssss */
+
+@media only screen and (max-width:600px) {
+    
+
+    /* .gorticsection--container-texts {
+        width: 90vw;
+        padding: 1rem;
+    }
+
+    .gorticsection--container-mediainfo-image {
+        width: 40vh;
+        margin: 1rem 0;
+    } */
+}
+
+
+@media only screen and (max-width:480px) {
+    .enginesection--container-texts--header {
+        font-size: 1.7rem;
+        margin: 0rem 1.3rem 0 0;
+        text-align: justify;
+        
+    }
+
+    .enginesection--container-texts--header-cppicon {
+        width: 4rem;
+        margin: 0 2rem 0 0;
+    }
+
+
+    .enginesection--container-texts--infotext {
+        margin-left: 0;
+        margin-right: 0;
+        width: 80vw;
+    }
+    
+    .enginesection--container-texts {
+        align-items: center;
+    } 
+
+    .enginesection--container-texts--github {
+        width: 70vw;
+    }
 }

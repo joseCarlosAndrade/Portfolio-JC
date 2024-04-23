@@ -15,8 +15,8 @@ function GORTICSection() {
 
         <div className='gorticsection--container-texts'>
             <div className='gorticsection--container-texts--header'>
-                <img className='gorticsection--container-texts--header-cppicon transitionEase scaleOnHover120' src={goIcon.toString()} alt="" />
-                <div className='gorticsection--container-texts--header-title'>Local Gartic GOlang Implementation (in progress)</div>
+                <img className='gorticsection--container-texts--header-goicon transitionEase scaleOnHover120' src={goIcon.toString()} alt="" />
+                <div className='gorticsection--container-texts--header-title'>Local Gartic GOlang Implementation</div>
             </div>
 
             <div className='gorticsection--container-texts--infotext'>
