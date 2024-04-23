@@ -58,20 +58,28 @@
 .aboutme--container-upper--profile-texts-text {
     text-align: justify;
     width: 90%;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     
+}
+
+.aboutme--container-upper--profile-texts-stacks {
+    margin-top: 1rem;
 }
 
 .resumelink {
     margin-bottom: 1rem;
     color: var(--aboutme-lightblue);
     cursor: pointer;
+    font-size: 1.1rem;
+
 }
 
 .aboutme--container-upper--profile {
     display: flex;
     flex-direction: row;
 }
+
+
 
 .aboutme--container-upper--profile-image {
     width: 30vw;
