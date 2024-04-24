@@ -10,7 +10,7 @@
 }
 
 .aboutme--container {
-    
+    margin: 2rem;
     height: 86vh;
     width: 83vw;
     margin: auto;
@@ -112,6 +112,12 @@
 /* @media screen and (max-width: 700px) {
 
 } */
+
+@media screen and (max-width: 1400px) {
+    .aboutme--container-upper--profile-image {
+        width: 30vw;
+    }
+}
 
 @media screen and ( max-width: 700px) {
 
